@@ -126,8 +126,8 @@ export default function TodoList() {
       </div>
 
       <div className="deleteButtons">
-        <Button style={{ marginTop: '1rem', textTransform: 'none', color: '#271c6c' }} onClick={deleteAllTask}>Delete all task</Button>
-        <Button style={{ marginTop: '1rem', textTransform: 'none', color: '#271c6c' }} onClick={deleteCompletedTask}>Delete completed task</Button>
+        <Button onClick={deleteAllTask}>Delete all task</Button>
+        <Button onClick={deleteCompletedTask}>Delete completed task</Button>
       </div>
 
       <ModalComponent
