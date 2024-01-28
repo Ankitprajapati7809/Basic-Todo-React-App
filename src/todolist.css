@@ -64,7 +64,7 @@ body {
 
 
 .input:focus {
-    border: 2px solid #646ff0;
+    border: 1px solid #4c4483;
     outline: none;
 }
 
@@ -83,7 +83,7 @@ body {
 
 .textField {
     text-align: center;
-
+    
 }
 
 .filter {
@@ -97,6 +97,11 @@ body {
     text-shadow: 3px 0 5px #271c6c;
 }
 .textField button {
- background-color: #646ff0;
+ background-color: #271c6c;
  margin-left: 10px;
+ margin-bottom: 5px;
+
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #271c6c;
 }

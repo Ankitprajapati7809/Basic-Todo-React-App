@@ -11,11 +11,9 @@ import EditIcon from '@mui/icons-material/Edit';
 export default function TodoList() {
   const [open, setOpen] = React.useState(false);
   const [todoList, setTodoList] = useState(() => {
-
+    
     const storedTodoList = localStorage.getItem('lists');
-    return storedTodoList ? JSON.parse(storedTodoList) : [
-      { task: "Eat", id: uuidv4(), isDone: false, createdAt: new Date() },
-      { task: "Sleep", id: uuidv4(), isDone: false, createdAt: new Date() },];
+    return storedTodoList ? JSON.parse(storedTodoList) : [];
 
   }
   );
